@@ -1,0 +1,6 @@
+Goal: <one sentence>
+Inputs: <paths, ids, queries; for a code search, also: the XERJ prefix of the project; for a plan, also: Basic Memory search of <project> for decisions and contracts>
+Limits: <what not to change>
+Output file: <path in .agent-out/> (implementer: relative to its worktree root)
+Reply: status, output path, a maximum of 5 findings, open questions. A maximum of 10 lines.
+Stop when: <condition>

@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Agent and tool output
+.agent-out/
+.ruff_cache/
+.metrics/
+graphify-out/
+.beads/
+*.gate.lock*
+.dolt/
+*.db
+.playwright-mcp/
+HANDOFF.md
+
+# Local config and secrets
+.claude/
+CLAUDE.local.md
+.slopconfig.yaml
+.venv/
+uv.lock
+.env
+.env.*
+*.key
+*.pem
+.beads-credential-key
